@@ -53,14 +53,3 @@ class Gradescope_Class:
                 assignments_list.append(Assigned(assignment.due_date,assignment.name,submitted=submitted,grade=grade))
         
         return assignments_list
-
-                    
-                    
-        
-
-if __name__ == "__main__":
-    IP_gradescope = Gradescope_Class(701550)
-    assignment_list = IP_gradescope.get_assignments([])
-    for assignment in assignment_list:
-        print(assignment)
-        print()
