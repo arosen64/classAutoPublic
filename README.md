@@ -55,7 +55,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-**5. change the gradescopeapi (by far the hardest step)**
+**5. change the gradescopeapi**
 
 *step 1:*
 
