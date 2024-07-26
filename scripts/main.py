@@ -31,29 +31,29 @@ semester = [
 
     Course(name='MFCS',
            weights={'/':(None,.03),'prepwork':(None, .05), 'worksheet':(None, .05), 'quiz':(MFCS_quiz_filter, .09),'midterm':(None, .48), 'final':(None,.3)},
-           cal_id='c6a8c5ea35f66c508373dbfbd97813b4d16e19ab61ddfceec03f9bfa561d4c85@group.calendar.google.com',
-           canvas_id=67897,
-           gradescope_id=722639
+           cal_id='',
+           canvas_id=0,
+           gradescope_id=0
     ),
 
     Course(name='IP',
            weights={'roll call':(None, .05), 'written': (None, .06), 'hw!coding': (None, .3), 'midterm!project': (None,.14), 'midterm': (IP_midterm_filter,.15), 'final project': (None,.15), 'final exam':(None,.15)},
-           cal_id='2bdd14e3f70985c29b9c45f2605550f1af732ba95b40442bd9f77e5a2f1ac4d7@group.calendar.google.com',
-           gradescope_id=701550, 
-           canvas_id=64623
+           cal_id='',
+           gradescope_id=0, 
+           canvas_id=0
     ),
 
     Course(name='Reintro',
            weights={'feeder':(None,.2),'podcast':(None,.2), 'policy brief':(None,.2), 'personal essay':(None, .2), 'engagement':(None,.2)},
-           cal_id='6b6cb61fb0c500f6d426b637d23bea716f4e0e6b01ea21a1df76809e3fe088cb@group.calendar.google.com',
-           canvas_id=49346
+           cal_id='',
+           canvas_id=0
     ),
 
     Course(name='gateway',
            weights={'class prep':(None, .08), 'attendance':(None, .02), 'quiz':(None, .3), 'project':(None, .35), 'final exam': (None, .25)},
            cal_id='asdfg@group.calendar.google.com',
-           canvas_id=49415,
-           gradescope_id=587131
+           canvas_id=0,
+           gradescope_id=0
     )
 ]
 
