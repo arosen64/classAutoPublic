@@ -19,6 +19,7 @@ USER_ID=GradescopeUserID
 RECEIVER_EMAIL=emailForNotifsToBeSentTo
 SENDER_EMAIL=gmailAccountThatWillSendTheNotifs
 USER_PASSWORD=GradescopePassword
+USER_EMAIL=GradescopeEmail
 ```
 
 **2. put the google config file from before in the scripts directory**
