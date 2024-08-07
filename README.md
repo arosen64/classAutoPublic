@@ -44,7 +44,7 @@ python -m venv .venv
 
 **WINDOWS:**
 ```
-.venv/Scripts/activate
+CALL .venv/Scripts/activate
 ```
 **LINUX & MAC**
 ```
